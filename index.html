@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>API Rick and Morty</title>
+</head>
+<body>
+<header>
+    <nav>
+        <a href="http://127.0.0.1:5500/index.html"><img src="image/botaoHome.png" id="botao-home"></a>
+    </nav> 
+</header>
+<main >
+    <div id="container-titulo">
+        <h1 id="titulo-api">API Rick and Morty</h1>
+    </div>
+
+    <div id="containerCards">
+    </div>
+
+    <div id="container-botoes">
+            <button class="botoes" type="button" onclick="diminuirPagina()">Página anterior</button>
+            <div id="botoes"></div>
+        <button class="botoes" type="button" onclick="aumentarPagina()">Próxima página</button>
+    </div>
+    <figure>
+                <img id="imagem-rick-and-morty" src="image/rick-and-morty-portal-shoes-white-clothing-zavvi-23.png">
+    </figure>
+</main>
+<footer id="container-footer">
+    <div id="textos-footer">
+        <p id="texto-footer1"></p>
+        <p id="texto-footer2"></p>
+        <p id="texto-footer3"></p>
+    </div>
+    <div>
+        <h3 id="texto-footer">Desenvolvido por: <span style="color: white;">Ândria Ferreira</span> em 2023</h3>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="script.js"></script>    
+</body>
+</html>
