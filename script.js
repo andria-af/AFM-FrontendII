@@ -4,7 +4,6 @@ const botoes= document.getElementById('botoes')
 const textoFooter1= document.getElementById("texto-footer1")
 const textoFooter2= document.getElementById("texto-footer2")
 const textoFooter3= document.getElementById("texto-footer3")
-const bolinhaVerde= document.createElement("img")
 
 let pagina = 1
 let quantidadeDePaginas;
